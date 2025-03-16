@@ -1,0 +1,121 @@
+﻿@model vehicle_view_model
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Form elements </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Vehicle</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Add Vehicle</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+
+
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Add New Vehicles</h4>
+                    <p class="card-description">New Vehicle </p>
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+
+
+
+
+                            <label for="exampleInputName1">Vehicle Name</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="vehicle_name">
+                            <span asp-validation-for="vehicle_name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Select Car Brand</label>
+                            <select asp-items="@ViewBag.brandsli" asp-for="car_brand_id" class="form-control form-select"></select>
+                            
+                            
+                            <span asp-validation-for="car_brand_id" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Vehicle Model Number</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="vehicle_model_number" />
+                            <span asp-validation-for="vehicle_model_number" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Vehicle Price</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="vehicle_price" />
+                            <span asp-validation-for="vehicle_price" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Quantity Available</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="QuantityAvailable" />
+                            <span asp-validation-for="QuantityAvailable" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Vehicle Color</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="Color" />
+                            <span asp-validation-for="Color" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Vehicle Fuel Type</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="FuelType" />
+                            <span asp-validation-for="FuelType" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Vehicle Engine Capacity</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="EngineCapacity" />
+                            <span asp-validation-for="EngineCapacity" class="text-danger"></span>
+                        </div>
+
+
+
+
+
+
+                        <div class="form-group">
+                            <label for="exampleSelectGender">Status</label>
+                            <select class="form-select form-select" id="exampleSelectGender" asp-for="Status">
+                                <option>Choose Status</option>
+                                <option value="available">Available</option>
+                                <option value="not available">Not Available</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Vehicle Image</label>
+                            <input type="file" class="form-control" asp-for="vehicle_image">
+
+                        </div>
+
+                        <img src="~/assetsAdmin/imgs/@ViewBag.vehicle_img"  class="img-fluid"/>
+
+
+                        <button type="submit" class="btn btn-primary me-2">Add Vehicle</button>
+                        <button class="btn btn-light" asp-controller="Admin" asp-action="Index">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+<!-- content-wrapper ends -->
+<!-- partial:../../partials/_footer.html -->

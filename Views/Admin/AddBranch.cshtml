@@ -1,0 +1,55 @@
+﻿@model branch
+
+@{
+    
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Add New Branch </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Vehicle</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Add Branch</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+
+
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Add New Vehicles</h4>
+                    <p class="card-description">New Vehicle </p>
+                    <form class="forms-sample" method="post">
+                        <div class="form-group">
+
+
+
+
+                            <label for="exampleInputName1">Branch Name</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="branch_name">
+                            
+                            <span asp-validation-for="branch_name" class="text-danger"></span>
+                        </div>
+                    
+                      
+                        <button type="submit" class="btn btn-primary me-2">Add Branch</button>
+                        <button class="btn btn-light" asp-controller="Admin" asp-action="Index">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+<!-- content-wrapper ends -->
+
+
+
+

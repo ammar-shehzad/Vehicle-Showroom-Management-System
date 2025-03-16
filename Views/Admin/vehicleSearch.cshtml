@@ -1,0 +1,59 @@
+﻿@model searchVehicle
+
+@{
+
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Search Vehicle  </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Vehicle</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Search  Vehicle</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+
+
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Search Vehicles</h4>
+                    <p class="card-description"></p>
+                    <form class="forms-sample" method="post" asp-controller="Admin" asp-action="vehicleSearch">
+                        
+                        <div class="form-group">
+                            <label for="exampleInputName1"> Vehicle Name</label>
+                            <select class="form-control" asp-items="ViewBag.vehiicleList"  asp-for="Search_vehicle_Name">
+                                <option>Select Vehicle</option>
+                            </select>
+                            <span asp-validation-for="Search_vehicle_Name" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputName1"> Vehicle Branch</label>
+                            <select class="form-control" asp-items="ViewBag.branchList" asp-for="Search_vehicle_Branch">
+                                <option>Select a  Branch</option>
+                            </select>
+                            <span asp-validation-for="Search_vehicle_Branch" class="text-danger"></span>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary me-2">Search <i class="fa-solid fa-magnifying-glass fa-beat fa-xl" style="color: #da0101;"></i> </button>
+                        <button class="btn btn-light" asp-controller="Admin" asp-action="Index">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- content-wrapper ends -->

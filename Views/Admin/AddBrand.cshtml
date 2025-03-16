@@ -1,0 +1,58 @@
+﻿@model  car_brand_view_model
+
+@{
+    
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Form elements </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Vehicle</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Add Vehicle</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+
+
+        <div class="col-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Add New Vehicles</h4>
+                    <p class="card-description">New Vehicle </p>
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+
+
+
+
+                            <label for="exampleInputName1">Brand Name</label>
+                            <input type="text" class="form-control" id="exampleInputName1" asp-for="Brand_Name">
+                            
+                            <span asp-validation-for="Brand_Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputName1"> Brand Image</label>
+                            <input type="file" class="form-control" id="exampleInputName1" asp-for="Brand_Image" />
+                            <span asp-validation-for="Brand_Image" class="text-danger"></span>
+                        </div>
+                      
+                        <button type="submit" class="btn btn-primary me-2">Add Brand</button>
+                        <button class="btn btn-light" asp-controller="Admin" asp-action="Index">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+<!-- content-wrapper ends -->
+
+
+

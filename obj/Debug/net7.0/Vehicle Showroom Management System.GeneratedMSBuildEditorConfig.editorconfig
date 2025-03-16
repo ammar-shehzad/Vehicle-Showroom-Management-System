@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Vehicle_Showroom_Management_System
+build_property.RootNamespace = Vehicle_Showroom_Management_System
+build_property.ProjectDir = E:\asp.net_SirMaaz\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\Vehicle Showroom Management System\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\asp.net_SirMaaz\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\Vehicle Showroom Management System
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/AddBranch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQnJhbmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/AddBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/AddVehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkVmVoaWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/CompanyPurchase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcGFueVB1cmNoYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/ShowRegisteredVehicles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1JlZ2lzdGVyZWRWZWhpY2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/ShowVehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1ZlaGljbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/UpdateAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/UpdateVehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlVmVoaWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/vehicleSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdmVoaWNsZVNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/ViewBranch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0JyYW5jaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Admin/ViewBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0JyYW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Home/viewSingleProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3U2luZ2xlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net_SirMaaz/ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT/Vehicle Showroom Management System/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4afpyk6p66

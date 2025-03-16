@@ -1,0 +1,68 @@
+﻿@model List<branch>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Basic Tables </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Index</a></li>
+                <li class="breadcrumb-item active" aria-current="page">View Branches</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+
+
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Striped Table</h4>
+                    <p class="card-description">
+                        Add class <code>.table-striped</code>
+                    </p>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th> Branch Id </th>
+                                <th> Branch Name </th>
+                                <th> Delete </th>
+                                
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (var branch in Model)
+                            {
+
+
+
+                                <tr>
+                                    <td> @branch.branch_id </td>
+                                    <td> @branch.branch_name </td>
+                                    
+
+                                    <td> <a asp-controller="Admin" asp-action="DeleteBranch" asp-route-branch_id="@branch.branch_id"><i class="mdi mdi-delete-forever text-danger"></i></a> </td>
+
+
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+<!-- content-wrapper ends -->

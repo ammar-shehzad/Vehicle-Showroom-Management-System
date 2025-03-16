@@ -1,0 +1,110 @@
+﻿@model Vehicle
+           
+     
+<div class="impl_page_wrapper">
+                    <div class="container-fluid impl_container">
+                        <div class="impl_page_heading">
+                            <h3>@Model.vehicle_name.ToUpper()</h3>
+                            <p>
+                                <a href="index.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                                        <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                                        <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                                    </svg>
+                                    Home
+                                </a>
+                                <span>» Purchase Car</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Section End -->
+        <!-- Listing Section Start -->
+        <div class="impl_section_wrapper impl_listingSingle_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="big-img">
+                            <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="display-img img-fluid">
+                        </div>
+                        <div class="img-selection">
+                            <div class="img-thumb selected">
+                        <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="img-fluid w-50">
+                            </div>
+                            <div class="img-thumb">
+                        <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="img-fluid w-50">
+                            </div>
+                            <div class="img-thumb">
+                        <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="img-fluid w-50">
+                            </div>
+                            <div class="img-thumb">
+                        <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="img-fluid w-50">
+                            </div>
+                            <div class="img-thumb">
+                        <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="img-fluid w-50">
+                            </div>
+                            <div class="img-thumb">
+                        <img src="~/assetsAdmin/imgs/@Model.vehicle_image" class="img-fluid w-50">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="impl_auto_detail">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="impl_auto_name">
+                                <h5>@Model.vehicle_name</h5>
+                                    </div>
+                                    <div class="impl_auto_text">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                    </div>
+                                    <div class="impl_auto_rating">
+                                        <span>
+                                            <img src="assets/images/star.png" class="img-fluid">
+                                            <img src="assets/images/star.png" class="img-fluid">
+                                            <img src="assets/images/star.png" class="img-fluid">
+                                            <img src="assets/images/star.png" class="img-fluid">
+                                            <img src="assets/images/star1.png" class="img-fluid">
+                                        </span>
+                                        <p>2400 Reviews</p>
+                                    </div>
+                                    <div class="impl_auto_price">
+                                        <h6>$@Model.vehicle_price</h6>
+
+                                    </div>
+                                    <div class="impl_auto_btn">
+
+                                        <form>
+                                           <input type="number" class="form-control" name="pro_id" value="@Model.vehicle_id"/>
+
+                                           <h5 class="text-dark">Select Quantity</h5><br />
+                                    <input type="number" name="pro_id" value="1" min="2" step="1"
+                                           style="appearance: auto; -webkit-appearance: auto; -moz-appearance: auto;" />
+
+
+                                    <input type="submit" class="impl_btn"  value="Add To Cart"/>
+
+                                        </form>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              
+
+                    <div class="col-lg-12 text-center my-4">
+                <h4 style="color:#FF6540">offering a diverse </h4>
+                <h2 style="color:#FF6540">range of brand-new and pre-owned cars</h2>
+
+                <p class="my-3 text-dark">Impel Car Showroom is a premier destination for luxury and high-performance vehicles, offering a diverse range of brand-new and pre-owned cars. With a commitment to excellence, Impel provides top-notch customer service, competitive pricing, and a seamless buying experience. Whether you're looking for the latest models or exclusive deals, Impel ensures quality, reliability, and customer satisfaction at every step.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Listing Section End -->
+   
