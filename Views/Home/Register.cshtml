@@ -32,6 +32,7 @@
 
                 <form class="impl_contact_form" method="post">
                     <div class="impl_input_flex">
+                        @* //city *@
                         <div class="impl_input">
                             <input type="text" placeholder="Your Name Here.." autocomplete="off" asp-for="Customer_name"  class="require">
                             <span asp-validation-for="Customer_name" class="text-danger"></span>
@@ -40,19 +41,49 @@
                     </div>
 
                     <div class="impl_input_flex">
+                        @* Email *@
                         <div class="impl_input">
                             <input type="email" placeholder="Your Email Here.." autocomplete="off" asp-for="Customer_email" class="require" data-valid="email" data-error="Email should be valid.">
                             <span asp-validation-for="Customer_email" class="text-danger"></span>
                         </div>
+
+                        @* Phone *@
+
+                        <div class="impl_input">
+                            <input type="number" placeholder="Your Phone Here.." autocomplete="off" asp-for="Customer_phone" class="require">
+                            <span asp-validation-for="Customer_phone" class="text-danger"></span>
+                        </div>
+
                         </div>
 
                     <div class="impl_input_flex">
+
+                        @* Password *@
                         <div class="impl_input">
                             <input type="text" placeholder="Your Password Here.." autocomplete="off" asp-for="Customer_password" >
                             <span asp-validation-for="Customer_password" class="text-danger"></span>
                         </div>
+
+                        @* City *@
+
+                        <div class="impl_input">
+                            <input type="text" placeholder="Your City Here.." autocomplete="off" asp-for="Customer_city" class="require">
+                            <span asp-validation-for="Customer_city" class="text-danger"></span>
+                        </div>
                        
                     </div>
+
+
+                    <div class="impl_input_flex">
+                        
+                        @* address *@
+                        <div class="impl_input">
+                            <input type="text" placeholder="Your Address Here.." autocomplete="off" asp-for="Customer_address" class="require">
+                            <span asp-validation-for="Customer_address" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
                     
                     <div class="impl_form_btn">
                         <button type="submit" class="impl_btn submitForm">Register Me!</button>

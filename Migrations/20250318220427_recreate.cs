@@ -5,7 +5,7 @@
 namespace Vehicle_Showroom_Management_System.Migrations
 {
     /// <inheritdoc />
-    public partial class initialCreate : Migration
+    public partial class recreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -54,6 +54,24 @@ namespace Vehicle_Showroom_Management_System.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "customers",
+                columns: table => new
+                {
+                    Customer_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Customer_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Customer_email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Customer_password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Customer_city = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Customer_address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Customer_phone = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_customers", x => x.Customer_id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Vehicles",
                 columns: table => new
                 {
@@ -85,6 +103,37 @@ namespace Vehicle_Showroom_Management_System.Migrations
                         column: x => x.car_brand_id,
                         principalTable: "car_Brands",
                         principalColumn: "Brand_Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "orders",
+                columns: table => new
+                {
+                    order_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    cust_id = table.Column<int>(type: "int", nullable: false),
+                    firstname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    lastname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    country = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    city = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    state = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    zip_code = table.Column<int>(type: "int", nullable: false),
+                    phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    payment_method = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    order_note = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    order_status = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_orders", x => x.order_id);
+                    table.ForeignKey(
+                        name: "FK_orders_customers_cust_id",
+                        column: x => x.cust_id,
+                        principalTable: "customers",
+                        principalColumn: "Customer_id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -121,6 +170,57 @@ namespace Vehicle_Showroom_Management_System.Migrations
                         principalColumn: "Brand_Id");
                 });
 
+            migrationBuilder.CreateTable(
+                name: "cart_Items",
+                columns: table => new
+                {
+                    cart_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    customer_id = table.Column<int>(type: "int", nullable: true),
+                    vehicle_id = table.Column<int>(type: "int", nullable: true),
+                    product_quantity = table.Column<int>(type: "int", nullable: true),
+                    order_id = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_cart_Items", x => x.cart_id);
+                    table.ForeignKey(
+                        name: "FK_cart_Items_Vehicles_vehicle_id",
+                        column: x => x.vehicle_id,
+                        principalTable: "Vehicles",
+                        principalColumn: "vehicle_id");
+                    table.ForeignKey(
+                        name: "FK_cart_Items_customers_customer_id",
+                        column: x => x.customer_id,
+                        principalTable: "customers",
+                        principalColumn: "Customer_id");
+                    table.ForeignKey(
+                        name: "FK_cart_Items_orders_order_id",
+                        column: x => x.order_id,
+                        principalTable: "orders",
+                        principalColumn: "order_id");
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cart_Items_customer_id",
+                table: "cart_Items",
+                column: "customer_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cart_Items_order_id",
+                table: "cart_Items",
+                column: "order_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cart_Items_vehicle_id",
+                table: "cart_Items",
+                column: "vehicle_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_orders_cust_id",
+                table: "orders",
+                column: "cust_id");
+
             migrationBuilder.CreateIndex(
                 name: "IX_vehicle_Registrations_registration_branch_id",
                 table: "vehicle_Registrations",
@@ -154,10 +254,19 @@ namespace Vehicle_Showroom_Management_System.Migrations
                 name: "admin_Registers");
 
             migrationBuilder.DropTable(
+                name: "cart_Items");
+
+            migrationBuilder.DropTable(
                 name: "vehicle_Registrations");
 
             migrationBuilder.DropTable(
+                name: "orders");
+
+            migrationBuilder.DropTable(
                 name: "Vehicles");
+
+            migrationBuilder.DropTable(
+                name: "customers");
 
             migrationBuilder.DropTable(
                 name: "Branches");

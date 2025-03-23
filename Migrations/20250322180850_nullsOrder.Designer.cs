@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Vehicle_Showroom_Management_System.Migrations
 {
     [DbContext(typeof(Vehicle_Showroom_Management_System_Context))]
-    [Migration("20250315085211_initialCreate")]
-    partial class initialCreate
+    [Migration("20250322180850_nullsOrder")]
+    partial class nullsOrder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,6 +43,43 @@ namespace Vehicle_Showroom_Management_System.Migrations
                     b.HasKey("Brand_Id");
 
                     b.ToTable("car_Brands");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.Customers", b =>
+                {
+                    b.Property<int>("Customer_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Customer_id"));
+
+                    b.Property<string>("Customer_address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Customer_city")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Customer_email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Customer_name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Customer_password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Customer_phone")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.HasKey("Customer_id");
+
+                    b.ToTable("customers");
                 });
 
             modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.Vehicle", b =>
@@ -182,6 +219,103 @@ namespace Vehicle_Showroom_Management_System.Migrations
                     b.ToTable("Branches");
                 });
 
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.cart_item", b =>
+                {
+                    b.Property<int>("cart_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("cart_id"));
+
+                    b.Property<int?>("customer_id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("order_id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("product_quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("vehicle_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("cart_id");
+
+                    b.HasIndex("customer_id");
+
+                    b.HasIndex("order_id");
+
+                    b.HasIndex("vehicle_id");
+
+                    b.ToTable("cart_Items");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.order", b =>
+                {
+                    b.Property<int>("order_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("order_id"));
+
+                    b.Property<string>("address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("city")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("cust_id")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("firstname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("order_amount")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<string>("order_note")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("order_status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("payment_method")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("state")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("zip_code")
+                        .HasColumnType("int");
+
+                    b.HasKey("order_id");
+
+                    b.HasIndex("cust_id");
+
+                    b.ToTable("orders");
+                });
+
             modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.Vehicle", b =>
                 {
                     b.HasOne("Vehicle_Showroom_Management_System.Models.branch", "car_branch")
@@ -222,6 +356,38 @@ namespace Vehicle_Showroom_Management_System.Migrations
                     b.Navigation("branch");
 
                     b.Navigation("car_Brand");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.cart_item", b =>
+                {
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.Customers", "cart_customers")
+                        .WithMany()
+                        .HasForeignKey("customer_id");
+
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.order", "cart_order")
+                        .WithMany()
+                        .HasForeignKey("order_id");
+
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.Vehicle", "cart_vehicle")
+                        .WithMany()
+                        .HasForeignKey("vehicle_id");
+
+                    b.Navigation("cart_customers");
+
+                    b.Navigation("cart_order");
+
+                    b.Navigation("cart_vehicle");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.order", b =>
+                {
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.Customers", "Customers")
+                        .WithMany()
+                        .HasForeignKey("cust_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customers");
                 });
 #pragma warning restore 612, 618
         }

@@ -26,6 +26,11 @@ public class Vehicle_Showroom_Management_System_Context : DbContext
 
     //this is for the website
     public DbSet<Customers> customers { get; set; }
+    public DbSet<cart_item> cart_Items { get; set; }
+    public DbSet<order> orders { get; set; }
+
+
+
 
 
 

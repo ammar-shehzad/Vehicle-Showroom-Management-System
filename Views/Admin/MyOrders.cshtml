@@ -1,0 +1,94 @@
+﻿@model List<cart_item>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Basic Tables </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Admin" asp-action="Index">Index</a></li>
+                <li class="breadcrumb-item active" aria-current="page">View Orders</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+
+
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Striped Table</h4>
+                    <p class="card-description">
+                        Add class <code>.table-striped</code>
+                    </p>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <@* th> Brand Id </th>
+                                <th> Brand Name </th> *@
+                                <th> Brand Image </th>
+                                <th> Delete </th>
+                                <th> @ViewBag.vehicle_img  </th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (var item in Model)
+                            {
+
+
+
+                                <tr>
+                                    <td>
+                                        @item.cart_customers?.Customer_id
+                                    </td>
+
+                                    <td>
+                                        @item.cart_vehicle?.vehicle_name
+                                    </td>
+                                    <td>
+                                        @item.cart_order?.order_id
+                                    </td>
+                                    <td>
+                                        @item.product_quantity
+                                    </td>
+                                    <td>
+                                        @item.cart_order?.payment_method
+                                    </td>
+                                    <td>
+                                        @item.cart_order?.order_amount
+                                    </td>
+
+                                    <td>
+                                        @item.cart_order?.order_status
+                                    </td>
+
+                                @*     <td class="py-1">
+                                        <img src="~/assetsAdmin/imgs/@vehicle.vehicle_image" alt="image" />
+                                    </td>
+
+                                    <td> <a asp-controller="Admin" asp-action="DeleteVehicle" asp-route-Vehicle_id="@vehicle.vehicle_id" class="btn btn-danger btn-outline-danger"> X</a> </td>
+                                    <td> <a asp-controller="Admin" asp-action="UpdateVehicle" asp-route-Vehicle_id="@vehicle.vehicle_id" class=" btn btn-warning btn-outline-warning">Update</a> </td>
+ *@
+
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+<!-- content-wrapper ends -->

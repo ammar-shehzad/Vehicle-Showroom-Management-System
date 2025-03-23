@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Vehicle_Showroom_Management_System.Migrations
 {
     [DbContext(typeof(Vehicle_Showroom_Management_System_Context))]
-    partial class Vehicle_Showroom_Management_System_ContextModelSnapshot : ModelSnapshot
+    [Migration("20250318220427_recreate")]
+    partial class recreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -267,7 +270,7 @@ namespace Vehicle_Showroom_Management_System.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("cust_id")
+                    b.Property<int>("cust_id")
                         .HasColumnType("int");
 
                     b.Property<string>("email")
@@ -278,13 +281,16 @@ namespace Vehicle_Showroom_Management_System.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("order_amount")
-                        .HasColumnType("int");
+                    b.Property<string>("lastname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("order_note")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("order_status")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("payment_method")
@@ -296,9 +302,10 @@ namespace Vehicle_Showroom_Management_System.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("state")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("zip_code")
+                    b.Property<int>("zip_code")
                         .HasColumnType("int");
 
                     b.HasKey("order_id");
@@ -375,7 +382,9 @@ namespace Vehicle_Showroom_Management_System.Migrations
                 {
                     b.HasOne("Vehicle_Showroom_Management_System.Models.Customers", "Customers")
                         .WithMany()
-                        .HasForeignKey("cust_id");
+                        .HasForeignKey("cust_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Customers");
                 });

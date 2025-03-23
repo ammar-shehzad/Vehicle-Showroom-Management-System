@@ -1,0 +1,168 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor Accessor;
+
+@model order
+
+
+<div class="impl_page_wrapper">
+    <div class="container-fluid impl_container">
+        <div class="impl_page_heading">
+            <h3>Register Your Self</h3>
+            <p>
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                        <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                        <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                    </svg>
+                    Home
+                </a>
+                <span>» Register Your Self</span>
+            </p>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<!-- Banner Section End -->
+<!-- Registration Section Start -->
+<div class="impl_section_wrapper impl_contact_wrapper">
+    <div class="container">
+      @*   @foreach (var items in ViewBag.cart)
+        {
+            <h1>@items.customer_id</h1>
+        } *@
+        <div class="row">
+            
+            <div class="col-lg-8" data-aos="fade-left">
+
+                <form class="impl_contact_form" method="post">
+
+                    <input type="number" asp-for="cust_id" value="@Accessor.HttpContext.Session.GetInt32("user_id")" />
+
+                    <!-- Name -->
+                    <div class="form-group">
+                        <label for="firstname">Full Name</label>
+                        <input type="text" placeholder="Your Name Here.." asp-for="firstname" class="form-control" value="@ViewBag.FindForCheckout.Customer_name ">
+                        <span asp-validation-for="firstname" class="text-danger"></span>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" placeholder="Your Address Here.." asp-for="address" class="form-control" value="@ViewBag.FindForCheckout.Customer_address ">
+                        <span asp-validation-for="address" class="text-danger"></span>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="number" placeholder="Your Phone Here.." asp-for="phone" class="form-control" value="@ViewBag.FindForCheckout.Customer_phone ">
+                        <span asp-validation-for="phone" class="text-danger"></span>
+                    </div>
+
+                    <!-- Country -->
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" placeholder="Your Country Here.." asp-for="country" class="form-control">
+                        <span asp-validation-for="country" class="text-danger"></span>
+                    </div>
+
+                    <!-- City -->
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" placeholder="Your City Here.." asp-for="city" class="form-control" value="@ViewBag.FindForCheckout.Customer_city ">
+                        <span asp-validation-for="city" class="text-danger"></span>
+                    </div>
+
+                    <!-- State -->
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" placeholder="Your State Here.." asp-for="state" class="form-control">
+                        <span asp-validation-for="state" class="text-danger"></span>
+                    </div>
+
+                    <!-- Zip Code -->
+                    <div class="form-group">
+                        <label for="zip_code">Zip Code</label>
+                        <input type="number" placeholder="Your Zip Here.." asp-for="zip_code" class="form-control">
+                        <span asp-validation-for="zip_code" class="text-danger"></span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Your Email Here.." asp-for="email" class="form-control" value="@ViewBag.FindForCheckout.Customer_address ">
+                        <span asp-validation-for="email" class="text-danger"></span>
+                    </div>
+                    
+                    <!--order Note -->
+                    <div class="form-group">
+                        
+                        <label for="order_note">Order Note</label>
+                        <textarea class="form-control" rows="3" asp-for="order_note"></textarea>
+                        <span asp-validation-for="order_note" class="text-danger"></span>
+                    </div>
+
+                    @* order amount *@
+
+                    <input type="number" class="form-control" asp-for="order_amount" value="@Accessor.HttpContext.Session.GetInt32("grandtotal")" required />
+
+
+                    <!-- Payment Method -->
+                    <div class="form-group">
+                        <label>Payment Method</label>
+                        <div class="form-check">
+                            <input type="radio" asp-for="payment_method" class="form-check-input" value="paypal" id="paypal">
+                            <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" asp-for="payment_method" class="form-check-input" value="cod" id="cod">
+                            <label class="form-check-label" for="cod">Cash on Delivery (COD)</label>
+                        </div>
+                        <span asp-validation-for="payment_method" class="text-danger"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="impl_form_btn">
+                        <button type="submit" class="impl_btn submitForm">Order</button>
+                    </div>
+                </form>
+
+                <h5 class="text-success">@ViewBag.success</h5>
+
+            </div>
+
+            <div class="col-lg-4 " data-aos="fade-up">
+
+                <h4>Your Summary</h4>
+
+                <table class="table table-bordered bg-dark ">
+                    <tr>
+                        <th class="">Total</th>
+                        <th>@Accessor.HttpContext.Session.GetInt32("total")</th>
+
+                    </tr>
+                    <tr>
+                        <th>Shipment 5%</th>
+                        <th>@Accessor.HttpContext.Session.GetInt32("shipment")</th>
+
+                    </tr>
+
+                    <tr>
+                        <th>Grand  Total</th>
+                        <th>@Accessor.HttpContext.Session.GetInt32("grandtotal")</th>
+
+                    </tr>
+
+
+                </table>
+
+
+                
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Registration Section End -->

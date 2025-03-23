@@ -4400,6 +4400,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\39ffa6e7-7907-4077-beb1-c33cab5c7332hyundai-logo-design-template-b23525c43a25ea6f6683ad325617f3c5_screen.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\3c6c85e0-59fd-4db2-9e42-5b2e4230e907.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Vehicle Showroom Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Vehicle Showroom Management System</BasePath>
+      <RelativePath>assetsAdmin/imgs/3c6c85e0-59fd-4db2-9e42-5b2e4230e907.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\3c6c85e0-59fd-4db2-9e42-5b2e4230e907.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\51a9b7ca-2103-4039-b00d-b8b034b07ea6.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Vehicle Showroom Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Vehicle Showroom Management System</BasePath>
+      <RelativePath>assetsAdmin/imgs/51a9b7ca-2103-4039-b00d-b8b034b07ea6.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\51a9b7ca-2103-4039-b00d-b8b034b07ea6.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\5c158bac-0055-4411-aaba-35ce8684c3a8.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Vehicle Showroom Management System</SourceId>
@@ -4415,6 +4447,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\5c158bac-0055-4411-aaba-35ce8684c3a8.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\6010485d-9eb9-4643-a12b-a9d1a4f7ad71hyundai-logo-design-template-b23525c43a25ea6f6683ad325617f3c5_screen.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Vehicle Showroom Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Vehicle Showroom Management System</BasePath>
+      <RelativePath>assetsAdmin/imgs/6010485d-9eb9-4643-a12b-a9d1a4f7ad71hyundai-logo-design-template-b23525c43a25ea6f6683ad325617f3c5_screen.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\6010485d-9eb9-4643-a12b-a9d1a4f7ad71hyundai-logo-design-template-b23525c43a25ea6f6683ad325617f3c5_screen.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\637278fd-3874-4834-8213-6c32a91c2b30hyundai-logo-design-template-b23525c43a25ea6f6683ad325617f3c5_screen.jpg))">
       <SourceType>Package</SourceType>
@@ -4447,6 +4495,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\738f8047-f7ea-4658-9c16-6ccb29843994.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\7d1899d3-a466-4d0a-a04d-bf63156cc5c4images (4).jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Vehicle Showroom Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Vehicle Showroom Management System</BasePath>
+      <RelativePath>assetsAdmin/imgs/7d1899d3-a466-4d0a-a04d-bf63156cc5c4images (4).jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\7d1899d3-a466-4d0a-a04d-bf63156cc5c4images (4).jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\89474917-3627-4157-9e7b-e8b4d16dfd33images (4).jpeg))">
       <SourceType>Package</SourceType>
@@ -4559,6 +4623,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\c564c24f-9534-4bdf-92ad-9e4d0e58c7a9.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\cod.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Vehicle Showroom Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Vehicle Showroom Management System</BasePath>
+      <RelativePath>assetsAdmin/imgs/cod.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\cod.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\d76dd393-1c6e-4a4a-a5f5-40887750139e.jpeg))">
       <SourceType>Package</SourceType>
@@ -4687,6 +4767,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\my profile.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\paypal.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Vehicle Showroom Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Vehicle Showroom Management System</BasePath>
+      <RelativePath>assetsAdmin/imgs/paypal.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\imgs\paypal.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assetsAdmin\js\ace.js))">
       <SourceType>Package</SourceType>

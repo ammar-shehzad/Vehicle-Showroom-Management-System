@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\admin\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\admin\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\mycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\mycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\vehicle_showroom_management_system_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:models\\vehicle_showroom_management_system_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\cart_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:models\\cart_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\migrations\\20250322110124_alterorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:migrations\\20250322110124_alterorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,28 +55,28 @@
       "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\viewsingleproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\viewsingleproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\views\\admin\\vehiclesearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:views\\admin\\vehiclesearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\vehicle_showroom_management_system_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:models\\vehicle_showroom_management_system_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\models\\searchvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,8 +95,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250315084458_vehicleregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\migrations\\20250315211212_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:migrations\\20250315211212_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\migrations\\20250322191649_ods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:migrations\\20250322191649_ods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|e:\\asp.net_sirmaaz\\asp.net-eproject_vehicle_showroom_management\\vehicle showroom management system\\migrations\\20250322192937_reqs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9933773F-B753-43AE-B265-562243F4C2ED}|Vehicle Showroom Management System.csproj|solutionrelative:migrations\\20250322192937_reqs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,114 +110,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 221,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "login.cshtml",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\login.cshtml",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\login.cshtml",
-              "RelativeToolTip": "Views\\Home\\login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T23:18:37.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAABcAAAAgMzMzMzMrwCAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T22:34:52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T22:08:14.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "viewSingleProduct.cshtml",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\viewSingleProduct.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\viewSingleProduct.cshtml",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\viewSingleProduct.cshtml",
-              "RelativeToolTip": "Views\\Home\\viewSingleProduct.cshtml",
-              "ViewState": "AgIAAA8AAAAgZmZmZmYkwGsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T21:54:44.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwBAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T21:19:09.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Admin\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\MyOrders.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Admin\\MyOrders.cshtml",
+              "RelativeToolTip": "Views\\Admin\\MyOrders.cshtml",
+              "ViewState": "AgIAAD8AAAAAMzMzMzMbwEgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T21:03:35.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACYAAABAmZmZmZkZwDQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMBAAAAZmZmZmYuwCkBAAC4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T21:13:51.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250315211212_customers.cs",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250315211212_customers.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250315211212_customers.cs",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250315211212_customers.cs",
-              "RelativeToolTip": "Migrations\\20250315211212_customers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "order.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\order.cs",
+              "RelativeDocumentMoniker": "Models\\order.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\order.cs",
+              "RelativeToolTip": "Models\\order.cs",
+              "ViewState": "AgIAACQAAADAmZmZmZkhwCIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T21:12:13.223Z"
+              "WhenOpened": "2025-03-20T10:26:45.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHMBAABgZmZmZmYuwHkBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T10:43:15.736Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MyCart.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\MyCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MyCart.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\MyCart.cshtml",
+              "RelativeToolTip": "Views\\Home\\MyCart.cshtml",
+              "ViewState": "AgIAAD8AAAAAmJmZmZnpv0YAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T22:21:12.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Customers.cs",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Customers.cs",
               "RelativeDocumentMoniker": "Models\\Customers.cs",
               "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Customers.cs",
               "RelativeToolTip": "Models\\Customers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAACAMzMzMzMbwBEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T21:06:01.303Z",
+              "WhenOpened": "2025-03-15T21:06:01.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAIUCAAAAAAAAAAAcwJYCAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:49:02.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehicle_Showroom_Management_System_Context.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Vehicle_Showroom_Management_System_Context.cs",
+              "RelativeDocumentMoniker": "Models\\Vehicle_Showroom_Management_System_Context.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Vehicle_Showroom_Management_System_Context.cs",
+              "RelativeToolTip": "Models\\Vehicle_Showroom_Management_System_Context.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:45:54.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "checkout.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\checkout.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\checkout.cshtml",
+              "RelativeToolTip": "Views\\Home\\checkout.cshtml",
+              "ViewState": "AgIAAEYAAAAAjJmZmZn5vyAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T10:19:24.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "20250322110124_alterOrder.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250322110124_alterOrder.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250322110124_alterOrder.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250322110124_alterOrder.cs",
+              "RelativeToolTip": "Migrations\\20250322110124_alterOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:01:24.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cart_item.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\cart_item.cs",
+              "RelativeDocumentMoniker": "Models\\cart_item.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\cart_item.cs",
+              "RelativeToolTip": "Models\\cart_item.cs",
+              "ViewState": "AgIAAAsAAABAMzMzMzMhwAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:55:47.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250322191649_ods.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250322191649_ods.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250322191649_ods.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250322191649_ods.cs",
+              "RelativeToolTip": "Migrations\\20250322191649_ods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:16:49.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250322192937_reqs.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250322192937_reqs.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250322192937_reqs.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250322192937_reqs.cs",
+              "RelativeToolTip": "Migrations\\20250322192937_reqs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:29:37.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAPQAAAAANDMzMzMbwPsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T10:56:14.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MyOrders.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\MyOrders.cshtml",
+              "RelativeToolTip": "Views\\Home\\MyOrders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T11:16:53.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "viewSingleProduct.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\viewSingleProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\viewSingleProduct.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\viewSingleProduct.cshtml",
+              "RelativeToolTip": "Views\\Home\\viewSingleProduct.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAABQPU4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T22:16:55.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T22:21:36.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAUwGIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T22:34:52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAACAmZmZmZktwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:13:05.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\login.cshtml",
+              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Home\\login.cshtml",
+              "RelativeToolTip": "Views\\Home\\login.cshtml",
+              "ViewState": "AgIAACAAAAAAMjMzMzMbwB4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T23:18:37.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "vehicleSearch.cshtml",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Admin\\vehicleSearch.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\vehicleSearch.cshtml",
@@ -189,19 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAKYBAAAAAAAAAACQPbABAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:49:02.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Vehicle_registration.cs",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Vehicle_registration.cs",
               "RelativeDocumentMoniker": "Models\\Vehicle_registration.cs",
@@ -213,19 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Vehicle_Showroom_Management_System_Context.cs",
-              "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Vehicle_Showroom_Management_System_Context.cs",
-              "RelativeDocumentMoniker": "Models\\Vehicle_Showroom_Management_System_Context.cs",
-              "ToolTip": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\Vehicle_Showroom_Management_System_Context.cs",
-              "RelativeToolTip": "Models\\Vehicle_Showroom_Management_System_Context.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:45:54.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "searchVehicle.cs",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Models\\searchVehicle.cs",
               "RelativeDocumentMoniker": "Models\\searchVehicle.cs",
@@ -237,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "ShowRegisteredVehicles.cshtml",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Views\\Admin\\ShowRegisteredVehicles.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ShowRegisteredVehicles.cshtml",
@@ -249,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "20250315084458_vehicleregister.cs",
               "DocumentMoniker": "E:\\asp.net_SirMaaz\\ASP.NET-EPROJECT_VEHICLE_SHOWROOM_MANAGEMENT\\Vehicle Showroom Management System\\Migrations\\20250315084458_vehicleregister.cs",
               "RelativeDocumentMoniker": "Migrations\\20250315084458_vehicleregister.cs",

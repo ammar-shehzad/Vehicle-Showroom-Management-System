@@ -1,0 +1,118 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor Accessor;
+
+@model List<cart_item>
+
+                <div class="impl_page_wrapper">
+                    <div class="container-fluid impl_container">
+                        <div class="impl_page_heading">
+                            <h3>Compare</h3>
+                            <p>
+                                <a href="index.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                                        <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                                        <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                                    </svg>
+                                    Home
+                                </a>
+                                <span>» MyCart</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Section End -->
+        <!-- Compare Section Start -->
+        <div class="impl_section_wrapper impl_compare_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-aos="flip-up">
+                        <div class="impl_section_heading">
+                            <h3>Select Car</h3>
+                        </div>
+                    </div>
+              
+                    <div class="col-lg-8" data-aos="fade-up">
+                        <div class="impl_compare_table table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Cart_Id</th>
+                                        <th>Vehicle_name</th>
+                                        <th>Vehicle_price</th>
+                                        <th>Vehicle_quantity</th>
+                                        <th>Vehile_image</th>
+
+                                    </tr>
+
+                            @if (ViewBag.emptyCart!=null)
+                            {
+
+
+                                <h2>@ViewBag.emptyCart</h2>
+
+
+                            }
+                            
+                            
+                            @if(Model !=null && Model.Any()){
+                                @foreach (var carts in Model)
+                                {
+
+                                    <tr>
+                                        <td>@carts.cart_id</td>
+                                        <td>@carts.cart_vehicle?.vehicle_name</td>
+                                        <td>@carts.cart_vehicle?.vehicle_price</td>
+                                        <td>@carts?.product_quantity</td>
+                                        <td><img src="~/assetsAdmin/imgs/@carts.cart_vehicle?.vehicle_image" class="img-fluid" width="50px" height="50px" /></td>
+                                    </tr>
+                                }
+                            }
+                            @* else
+                            {
+                                <tr>
+                                    <td colspan="5"><h2>@ViewBag.emptyCart</h2></td>
+                                </tr>
+                            } *@
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+            <div class="col-lg-4 " data-aos="fade-up">
+
+                <h4>Your Summary</h4>
+
+                <table class="table table-bordered bg-dark ">
+                    <tr>
+                        <th class="">Total</th>
+                        <th>@Accessor.HttpContext.Session.GetInt32("total")</th>
+    
+                    </tr>
+                    <tr>
+                        <th>Shipment 5%</th>
+                        <th>@Accessor.HttpContext.Session.GetInt32("shipment")</th>
+    
+                    </tr>                 
+                    
+                    <tr>
+                        <th>Grand  Total</th>
+                        <th>@Accessor.HttpContext.Session.GetInt32("grandtotal")</th>
+    
+                    </tr>
+
+
+                </table>
+
+
+                <a asp-action="checkout" asp-controller="Home"   asp-route-cust_id="@Model.FirstOrDefault().customer_id" class="btn impl_btn"> Proceed To Check Out</a>
+
+            </div>
+                
+                </div>
+            </div>
+        </div>
+        <!-- Compare Section End -->
+     

@@ -76,11 +76,12 @@
                                     </div>
                                     <div class="impl_auto_btn">
 
-                                        <form>
+                                <form method="post" asp-controller="Home" asp-action="MyCart">
+
                                            <input type="number" class="form-control" name="pro_id" value="@Model.vehicle_id"/>
 
                                            <h5 class="text-dark">Select Quantity</h5><br />
-                                    <input type="number" name="pro_id" value="1" min="2" step="1"
+                                    <input type="number" name="pro_qty" value="1" min="1" step="1"
                                            style="appearance: auto; -webkit-appearance: auto; -moz-appearance: auto;" />
 
 

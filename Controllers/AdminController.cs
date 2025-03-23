@@ -653,6 +653,19 @@ namespace Vehicle_Showroom_Management_System.Controllers
 
 
 
+        //==========================================View Orders work starts================================
+
+        public IActionResult MyOrders()
+        {
+             var showOrder = db.cart_Items.Where(o => o.cart_order.order_status == "pending").Include(o => o.cart_order).ToList();
+            
+
+            return View(showOrder);
+        }
+
+        //==========================================View Orders work Ends================================
+
+
 
         //================================================================
     }

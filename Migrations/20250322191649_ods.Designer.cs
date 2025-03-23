@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Vehicle_Showroom_Management_System.Migrations
 {
     [DbContext(typeof(Vehicle_Showroom_Management_System_Context))]
-    [Migration("20250315211212_customers")]
-    partial class customers
+    [Migration("20250322191649_ods")]
+    partial class ods
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,6 +53,14 @@ namespace Vehicle_Showroom_Management_System.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Customer_id"));
 
+                    b.Property<string>("Customer_address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Customer_city")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Customer_email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -64,6 +72,10 @@ namespace Vehicle_Showroom_Management_System.Migrations
                     b.Property<string>("Customer_password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Customer_phone")
+                        .IsRequired()
+                        .HasColumnType("int");
 
                     b.HasKey("Customer_id");
 
@@ -207,6 +219,91 @@ namespace Vehicle_Showroom_Management_System.Migrations
                     b.ToTable("Branches");
                 });
 
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.cart_item", b =>
+                {
+                    b.Property<int>("cart_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("cart_id"));
+
+                    b.Property<int?>("customer_id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("order_id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("product_quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("vehicle_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("cart_id");
+
+                    b.HasIndex("customer_id");
+
+                    b.HasIndex("order_id");
+
+                    b.HasIndex("vehicle_id");
+
+                    b.ToTable("cart_Items");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.order", b =>
+                {
+                    b.Property<int>("order_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("order_id"));
+
+                    b.Property<string>("address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("city")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("cust_id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("firstname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("order_amount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("order_note")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("order_status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("payment_method")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("state")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("zip_code")
+                        .HasColumnType("int");
+
+                    b.HasKey("order_id");
+
+                    b.HasIndex("cust_id");
+
+                    b.ToTable("orders");
+                });
+
             modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.Vehicle", b =>
                 {
                     b.HasOne("Vehicle_Showroom_Management_System.Models.branch", "car_branch")
@@ -247,6 +344,36 @@ namespace Vehicle_Showroom_Management_System.Migrations
                     b.Navigation("branch");
 
                     b.Navigation("car_Brand");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.cart_item", b =>
+                {
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.Customers", "cart_customers")
+                        .WithMany()
+                        .HasForeignKey("customer_id");
+
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.order", "cart_order")
+                        .WithMany()
+                        .HasForeignKey("order_id");
+
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.Vehicle", "cart_vehicle")
+                        .WithMany()
+                        .HasForeignKey("vehicle_id");
+
+                    b.Navigation("cart_customers");
+
+                    b.Navigation("cart_order");
+
+                    b.Navigation("cart_vehicle");
+                });
+
+            modelBuilder.Entity("Vehicle_Showroom_Management_System.Models.order", b =>
+                {
+                    b.HasOne("Vehicle_Showroom_Management_System.Models.Customers", "Customers")
+                        .WithMany()
+                        .HasForeignKey("cust_id");
+
+                    b.Navigation("Customers");
                 });
 #pragma warning restore 612, 618
         }
